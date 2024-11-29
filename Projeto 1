@@ -1,0 +1,135 @@
+/* Arquivo: desktop.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.categorias {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.categorias li {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icon-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.destaques {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.recentes, .newsletter, footer {
+    padding: 20px;
+}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Desktop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="categorias">
+                <li>Categoria 1</li>
+                <li>Categoria 2</li>
+                <li>Categoria 3</li>
+            </ul>
+            <div class="icons">
+                <div class="icon-item">
+                    <img src="assets/icons/bag.svg" alt="Sacola">
+                    <span>Minha sacola</span>
+                </div>
+                <div class="icon-item">
+                    <img src="assets/icons/profile.svg" alt="Perfil">
+                    <span>Meu perfil</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <img src="assets/images/banner.jpg" alt="Banner principal">
+        </section>
+        <section class="destaques">
+            <div class="carrossel">
+                <!-- Cards do carrossel -->
+            </div>
+            <div class="cartao-promocional">
+                <!-- Conteúdo do cartão -->
+            </div>
+        </section>
+        <section class="recentes">
+            <h2>Visitados recentemente</h2>
+            <!-- Lista de tópicos -->
+        </section>
+        <section class="newsletter">
+            <h2>Assine nossa newsletter</h2>
+            <form>
+                <input type="email" placeholder="Digite seu e-mail">
+                <button type="submit">Assinar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!-- Rodapé completo -->
+    </footer>
+</body>
+</html>
+/projeto-layout-desktop
+│
+├── index.html          # Página principal
+├── /css
+│   ├── style.css       # Estilos gerais
+│   ├── desktop.css     # Estilos específicos para desktop
+│
+├── /js
+│   ├── scripts.js      # Funcionalidades interativas
+│   ├── carousel.js     # Função do carrossel
+│
+├── /assets
+│   ├── /images         # Imagens do layout
+│   ├── /icons          # Ícones usados no cabeçalho e demais áreas
+│
+├── /components
+│   ├── header.html     # Cabeçalho reutilizável
+│   ├── footer.html     # Rodapé reutilizável
+│
+├── /docs               # Documentação do projeto
+└── README.md           # Guia rápido do projeto
+Layout desktop
+Por fim, vamos para o layout desktop, que a pessoa designer escolheu como medida 1728. Pouca coisa muda no cabeçalho: agora as categorias vão para a esquerda; e onde tínhamos o ícone da sacola de compras e do perfil do usuário, além do ícone, há a descrição do que é ("Minha sacola" e "Meu perfil").
+
+O restante, como o banner, por exemplo, é praticamente igual, mas agora o cartão fica ao lado do carrossel. Assim como antes, temos uma lista de tópicos visitados recentemente, um campo de newsletter, e também aquele rodapé completo que já havíamos aumentado no tablet.
