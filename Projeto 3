@@ -1,0 +1,121 @@
+/* código omitido */
+
+#container {
+    display: flex;
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+}
+
+/* código omitido *//* código omitido */
+
+#container {
+    display: flex;
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+/* código omitido */<!-- código omitido -->
+
+<article class="cartao">
+        <div class="cartao__conteudo">
+            <h3>Programação</h3>
+            <div class="cartao_conteudo_pergunta"> 
+                <p>O que é CSS?</p>
+            </div>
+            <div class="cartao_conteudo_resposta">
+            <p>0 CSS é uma linguagem de estilização</p>
+        </div>
+    </div>
+</article>
+
+<!-- código omitido -->/* código omitido */
+
+#container {
+    display: flex;
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+}
+
+/* código omitido *//* código omitido */
+
+.cartao__conteudo {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+/* código omitido *//* código omitido */
+
+.cartao__conteudo {
+    text-align: center;
+    background-color: aquamarine;
+    height: 100%;
+}
+
+/* código omitido *//* código omitido */
+
+.cartao {
+    /*margin: 1rem 1rem;*/
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+    background-color: aquamarine;
+    height: 100%;
+}
+
+/* código omitido *//* código omitido */
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+    /*background-color: aquamarine;*/
+    height: 100%;
+}
+
+/* código omitido */<!-- código omitido -->
+
+<article class="cartao">
+        <div class="cartao__conteudo">
+            <h3>Programação</h3>
+            <div class="cartao_conteudo_pergunta"> 
+                <p>O que é JavaScript?</p>
+
+<!-- código omitido -->/* código omitido */
+
+.cartao__conteudo h3 {
+    background-color: tomato;
+}
+
+/* código omitido */
